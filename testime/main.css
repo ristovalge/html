@@ -53,15 +53,15 @@ body {
       }
       }
   
-      @media only screen and (min-width: 600px)   {
+      @media only screen and (min-width: auto)   {
           .wrapper {
-        grid-gap: 20px;
-              grid-template-columns: 120px auto 120px;
+        grid-gap: 200px;
+              grid-template-columns: 1200px auto 1200px;
               grid-template-areas:
         "header  header  header"
               "sidebar content sidebar2"
               "footer  footer  footer";
-              max-width: 600px;
+              max-width: 6000px;
           }
       }
   
@@ -81,4 +81,21 @@ body {
   .sidebar2 {
     background-color: #ccc;
     color: #444;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%; 
+  }
+  .sidebar {
+    background-color: #ccc;
+    color: #444;
+    border-radius: 5px;
+    padding: 150px;
+    font-size: 150%; 
+  }
+  .content {
+    background-color: #ccc;
+    color: #444;
+    border-radius: 5px;
+    padding: 150px;
+    font-size: 150%; 
   }
