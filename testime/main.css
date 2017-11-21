@@ -61,7 +61,7 @@ body {
         "header  header  header"
               "sidebar content sidebar2"
               "footer  footer  footer";
-              max-width: 600px;
+              max-width: 2000px;
           }
       }
   
@@ -78,6 +78,16 @@ body {
     background-color: #999;
   }
   
+  .sidebar2 {
+    background-color: #ccc;
+    color: #444;
+  }
+  .sidebar {
+    background-color: #ccc;
+    color: #444;
+    padding: auto;
+    font-size: 150%; 
+  }
   .sidebar2 {
     background-color: #ccc;
     color: #444;
