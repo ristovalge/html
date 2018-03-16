@@ -1,0 +1,1 @@
+alert("Welcome to my JavaScript page")// Kui leht välja lülitatud siis annab brauserile märku, et vaja avada javscript popupiga JavaScript Document
